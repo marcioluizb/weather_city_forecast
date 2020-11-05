@@ -11,10 +11,10 @@ Gem::Specification.new do |spec|
   spec.authors = ['marcio']
   spec.description = 'A Ruby interface to the OpenWeatherMap.'
   spec.email = %w[marcio_luiz_b@yahoo.com.br]
-  spec.files = %w[LICENSE.txt README.md WeatherCityForecast.gemspec] + Dir['lib/**/*.rb']
+  spec.files = %w[LICENSE.txt README.md weather_city_forecast.gemspec] + Dir['lib/**/*.rb']
   spec.homepage = 'http://marcioluizb.github.com/twitter/'
   spec.licenses = %w[MIT]
-  spec.name = 'WeatherCityForecast'
+  spec.name = 'weather_city_forecast'
   spec.require_paths = %w[lib]
   spec.required_ruby_version = '>= 2.4'
   spec.summary = spec.description
